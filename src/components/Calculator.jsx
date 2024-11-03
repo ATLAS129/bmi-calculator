@@ -1,16 +1,4 @@
-export default function Calculator({ body, setBody, setIsCalculating }) {
-  function handleCalculate() {
-    // for instant calculation
-    // setBody({
-    //   ...body,
-    //   healthyWeight: [
-    //     ((body.h / 100) ** 2 * 18.5).toFixed(1),
-    //     ((body.h / 100) ** 2 * 25).toFixed(1),
-    //   ],
-    // });
-
-    setIsCalculating(true);
-  }
+export default function Calculator({ body, setBody }) {
   return (
     <>
       <label>
@@ -48,9 +36,6 @@ export default function Calculator({ body, setBody, setIsCalculating }) {
         />{" "}
         kg
       </label>
-      <button className="px-5 py-2 rounded-xl border" onClick={handleCalculate}>
-        Calculate
-      </button>
     </>
   );
 }
