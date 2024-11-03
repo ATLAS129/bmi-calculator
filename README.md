@@ -2,7 +2,7 @@
 
 This is a simple Body Mass Index (BMI) Calculator built with React and Tailwind CSS. It allows users to enter their height and weight and instantly calculate their BMI, displaying whether they are underweight, normal, or overweight based on the BMI scale.
 
-Features
+## Features:
 
 - Real-time BMI Calculation: Enter height and weight, and get instant results.
 
